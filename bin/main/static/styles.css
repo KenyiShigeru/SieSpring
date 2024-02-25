@@ -1,0 +1,48 @@
+body{
+    background-color: #fefafa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    margin: 0;
+}
+header nav ul{
+    list-style: none;
+    padding: 25px;
+    /*margin-right: ;
+    margin-top: -7.5px;*/
+    display: flex;
+    justify-content: space-around;
+    background-color: #157f3d;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+/*header nav ul li a:hover{
+    color: red;
+
+}*/
+
+nav ul li a:hover {
+    padding: 0.75rem;
+    background-color: #71b979; /* Cambia el color de fondo al hacer hover */
+    color: #fff; /* Cambia el color del texto al hacer hover */
+    border-radius: 20px; /* Agrega bordes redondeados al hacer hover */
+}
+
+
+form{
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+form #lblhola{
+    color: #71b979;
+}

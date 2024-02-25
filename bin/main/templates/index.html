@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>SpringTEC</title>
+        <link rel="icon" type="image/x-icon" href="../static/logotec144x144.png">
+     <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/alumnos">Alumnos</a></li>
+                    <li><a href="/maestros">Maestros</a></li>
+                    <li><a href="/grupos">Grupos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p th:text="${mensaje}">Mensaje</p>
+            <!--el atributo th:text="${mensaje}"
+            es el que nos permite mostrar el mensaje que se encuentra en el controlador que declaramos en el controlador Rest-->
+            <p th:text="${mensaje2}">Mensaje</p>
+            <br/>
+            Nombre: <span th:text="${individuo.nombre}">Nombre</span>
+            <br/>
+            Apellido: <span th:text="${individuo.apellido}">Apellido</span>
+            <br/>
+            Edad: <span th:text="${individuo.edad}">Edad</span>
+            <br/>
+            Correo: <span th:text="${individuo.email}">Correo</span>
+            <br/>
+            Telefono: <span th:text="${individuo.telefono}">Telefono</span>
+            <!--
+                Zona del Formulario
+            -->
+
+            <form>
+                <input type="checkbox" name="hola" id="">
+                <label id="lblhola">Hola</label> 
+            </form>
+
+        </main>
+    </body>
+</html>
