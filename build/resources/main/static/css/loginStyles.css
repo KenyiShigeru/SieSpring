@@ -1,0 +1,77 @@
+
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+h1 span{
+    color: #157f3d;
+}
+
+.usuario{
+    display: inline-flex;
+}
+
+.usuario img{
+    width: 34px;
+    height: 34px;
+    margin-bottom: 2.3em;
+    border-bottom: 2px solid #157f3d;
+}
+
+.contra{
+    display: inline-flex;
+}
+
+.contra img{
+    width: 34px;
+    height: 34px;
+    margin-bottom: 2.3em;
+    border-bottom: 2px solid #157f3d;
+}
+
+img{
+    width: 76px;
+    height: 76px;
+    margin: 2em auto;
+    display: block;
+}
+.inicioSesion{
+background-color: #ffffff;
+    font-family: "ui-sans-serif", "system-ui",
+    -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+    "Cantarell", "Noto Sans", "sans-serif",
+    "BlinkMacSystemFont", "Helvetica Neue", "Arial", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 2rem;
+    border-radius: 1em;
+    margin: 5rem 30rem;
+    text-align: center;
+}
+.cajaTexto{
+    text-align: center;
+    font-size: 1.5em;;
+    border: none;
+    border-bottom: 2px solid #157f3d;
+    width: 100%;
+    margin:auto;
+}
+
+.cajaTexto:focus{
+    padding: 0.35rem;
+    outline: none;
+}
+
+.boton{
+    background-color: #157f3d;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.boton:hover{
+    padding: 0.75rem;
+}
