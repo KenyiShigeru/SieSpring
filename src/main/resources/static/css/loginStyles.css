@@ -56,7 +56,7 @@ background-color: #ffffff;
 
 .cajaTexto:focus{
     padding: 0.35rem;
-
+    outline: none;
 }
 
 .boton{
