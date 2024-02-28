@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link  rel="stylesheet" th:href="@{/css/loginStyles.css}">
+    <link rel="icon" th:href="@{/logos/logotec144x144.png}">
+    <title>Inicio de sesion</title>
+</head>
+<body style="background: #c2d4cc">
+    <form class="inicioSesion" >
+        <h1>Iniciar<span> sesion</span></h1>
+        <div>
+            <img th:src="@{/pictures/logousuario.png}">
+            <p></p>
+        </div>
+        <div class="usuario">
+            <img th:src="@{/pictures/usuario.png}">
+            <input type="text" class = "cajaTexto" id="txtnControl" name="username" placeholder="Numero de control">
+            <p></p>
+        </div>
+        <div class="contra">
+            <img th:src="@{/pictures/llave.png}">
+            <input type="password" class="cajaTexto" id="password" name="password" required placeholder="Contraseña">
+            <p></p>
+        </div>
+        <div>
+            <button type="submit" class="boton" href="/inicio">Iniciar sesion</button>
+            <p></p>
+        </div>
+    </form>
+
+
+</body>
+</html>
